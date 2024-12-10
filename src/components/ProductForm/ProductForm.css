@@ -1,0 +1,29 @@
+.product-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  .product-form input,
+  .product-form select,
+  .product-form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-form button {
+    background: #00bcd4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .product-form button:hover {
+    background: #0288d1;
+  }
+  

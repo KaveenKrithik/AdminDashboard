@@ -1,0 +1,21 @@
+/* App container for layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app spans the full height of the viewport */
+}
+
+/* Content area: grows to fill available space */
+.content {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
